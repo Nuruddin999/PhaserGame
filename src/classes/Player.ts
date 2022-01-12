@@ -18,7 +18,6 @@ export class Player extends Actor {
         this.initAnimations();
     }
     update(): void {
-
         this.getBody().setVelocity(0);
         if (this.keyW?.isDown) {
           this.body.velocity.y = -110;

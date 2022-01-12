@@ -2,6 +2,7 @@ import {Game,Types} from 'phaser';
 import { Level1 } from './scenes';
 import {LoadingScene} from './scenes/loading'
 const gameConfig: Types.Core.GameConfig = {
+  
     title:'Phaser game',
     type:Phaser.WEBGL,
     parent:'game',
